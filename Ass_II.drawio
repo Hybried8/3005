@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0" version="24.7.16">
   <diagram name="Page-1" id="1-rGtO1BM4NWroD0nbZi">
-    <mxGraphModel dx="512" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-1" value="Screenplay" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-2" value="screenplayid &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;primary&lt;/span&gt; key &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-1">
+          <mxGeometry y="20" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-3" value="&amp;nbsp;title text &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-1">
+          <mxGeometry y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-4" value="&amp;nbsp;author text &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-1">
+          <mxGeometry y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-5" value="Movie" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-6" value="movieid &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;primary&lt;/span&gt; key &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;," style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-5">
+          <mxGeometry y="20" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-7" value="title text&amp;nbsp;&lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-5">
+          <mxGeometry x="5" y="50" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-8" value="releaseyear&amp;nbsp;&lt;span class=&quot;hljs-keyword&quot;&gt;year&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;," style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-5">
+          <mxGeometry y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-11" value="screenplayid&amp;nbsp;&lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-5">
+          <mxGeometry y="110" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-12" value="Scene" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-13" value="sceneid &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;primary&lt;/span&gt; key &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-12">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-14" value="storylocation text &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-12">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-15" value="filminglocation text &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-12">
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-16" value="screenplayid &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-12">
+          <mxGeometry y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-17" value="Actor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="300" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-18" value="actorid &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;primary&lt;/span&gt; key &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-17">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-19" value="name text &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-17">
+          <mxGeometry y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-20" value="phonenumber text &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-17">
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-21" value="address text &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-17">
+          <mxGeometry y="120" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-24" value="agentname text &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-17">
+          <mxGeometry y="150" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-25" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="590" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-26" value="takeid &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;primary&lt;/span&gt; key &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-25">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-27" value="sceneid &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-25">
+          <mxGeometry y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-28" value="takenumber &lt;span class=&quot;hljs-type&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-25">
+          <mxGeometry y="90" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lGt35EgQrw3tDI_L_yLH-29" value="&lt;span class=&quot;hljs-keyword&quot;&gt;foreign&lt;/span&gt; key (sceneid) &lt;span class=&quot;hljs-keyword&quot;&gt;references&lt;/span&gt; scene(sceneid)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="lGt35EgQrw3tDI_L_yLH-25">
+          <mxGeometry y="120" width="370" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
